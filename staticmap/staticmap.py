@@ -179,7 +179,7 @@ def _simplify(points, tolerance=11):
 
 
 class StaticMap:
-    def __init__(self, width, height, padding_x=0, padding_y=0, url_template="http://a.tile.komoot.de/komoot-2/{z}/{x}/{y}.png", tile_size=256, tile_request_timeout=None, headers=None, reverse_y=False, background_color="#fff",
+    def __init__(self, width, height, padding_x=0, padding_y=0, url_template="http://a.tile.thunderforest.com/komoot-3fb/{z}/{x}/{y}.png?apikey=8da1dad3733e46e8b5a9627eac8e6e60", tile_size=256, tile_request_timeout=None, headers=None, reverse_y=False, background_color="#fff",
                  delay_between_retries=0):
         """
         :param width: map width in pixel
